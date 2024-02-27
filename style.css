@@ -24,6 +24,7 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
     background: linear-gradient(180deg, var(--Soft-violet), var(--Soft-blue));
+    height: 105vh;
 }
 
 .main-container {
@@ -112,6 +113,7 @@ body{
     text-align: center; 
     color: var(--White);
     font-size: 0.9em;
+    text-align: center;
 }
 
 .attribution a { 
@@ -119,7 +121,7 @@ body{
     text-decoration: none; 
 }
 
-@media only screen and  (min-width: 375px) {
+@media only screen and  (min-width: 600px) {
     .main-container {
         width: 920px;
         min-height: 510px;
@@ -144,14 +146,14 @@ body{
     .main-container__header__image--desktop {
         display: block;
         width: 474px; 
-        margin: 130px 0 0 -200px;
+        margin: 178px 0 0 -191px;
     }
 
     .main-container__header__image--box {
         display: block;
         position: absolute;
-        top: 300px;
-        left: 90px;
+        margin: -226px 0 0 -118px;
+
     }
 
     .main-container__accordion {
